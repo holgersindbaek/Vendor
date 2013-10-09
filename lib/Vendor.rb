@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'bubble-wrap/core'
-require 'sugarcube'
 require 'sugarcube-anonymous'
 require 'sugarcube-legacy'
 require 'motion-cocoapods'

@@ -1,0 +1,85 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000524123E20000000000A8EAD0
+t1380000738
+s11070160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000524123EF00000000000003B5
+t1380000751
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000524123F4000000000000019E
+t1380000756
+s414
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a
+c00000000525547F900000000000AD8B8
+t1381320697
+s710840
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a
+c00000000525547F90000000000014040
+t1381320697
+s81984
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a
+t2
+s0
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+c000000005255436D0000000000000070
+t1381319533
+s112
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t1381320698
+s3260
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c00000000525547FA000000000000009B
+t1381320698
+s155
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2e03027a7f05b841^5da6027a7f05b841^---0#1#1#--18"Check dependencies36"4AB4BD50-DE7E-447B-A4CA-C4B7A6B39F52-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403013498.012002
+e403013498.118713
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m190"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o [1mPods-dummy.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6138037a7f05b841^6f641e7a7f05b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m0000000000000000^4028"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o [1mPods-dummy.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/CocoaSecurity -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"AE9803AF-4C20-4B10-BB4A-5E33DA8DCBEF-
+b985B80AB-C5CA-4B3E-ACF1-F1E81AA66A35
+
+CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a normal i386
+s403013498.127148
+e403013498.151813
+r1
+xLibtool
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"[1mLibtool[0m .build/libPods.a normal i38644"[1mLibtool[0m .build/libPods.a normal i3862fa3207a7f05b841^cedd267a7f05b841^---0#0#1#--1326"[1mLibtool[0m .build/libPods.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-CocoaSecurity -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a36"B1AEB7FF-8C91-44F4-A141-F1ED485A73BA-
+b985B80AB-C5CA-4B3E-ACF1-F1E81AA66A35
+

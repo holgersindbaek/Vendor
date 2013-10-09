@@ -4,6 +4,12 @@ $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
 require './lib/Vendor'
 
+require 'bundler'
+Bundler.require
+
+require 'sugarcube-color'
+require 'sugarcube-repl'
+
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Vendor'
@@ -13,4 +19,7 @@ Motion::Project::App.setup do |app|
     pod 'CocoaSecurity', '~> 1.2.1'
     pod 'AFNetworking', '~> 1.0'
   end
+
+  app.info_plist['UIStatusBarHidden'] = true
+  app.info_plist['UIViewControllerBasedStatusBarAppearance'] =  false
 end
