@@ -1,116 +1,87 @@
-class ProductManager
+module Vendor
+  class Product
+    attr_reader :id_param, :secret_param, :subscription_param, :price_param, :title_param, :description_param, :result_param, :exists
 
-# Product Initializer
+    # Initialize product
+    def initialize(options={}, &result)
+      # Set variables
+      @id_param = options[:id] || "no_id"
+      @secret_param = options[:secret] || "no_secret"
+      @subscription_param = options[:subscription] || false
+      @price_param = options[:price] || "0.99"
+      @title_param = options[:title] || "No Title"
+      @description_param = options[:description] || "No Description."
+      @result_param = result
 
-  def initialize(product_id, shared_secret)
-    @product_id = product_id
-    @shared_secret = shared_secret
-  end
-  
-# Product methods
+      # Raise argument error if id is not included
+      raise ArgumentError, "VENDOR WARNING: You forgot to write in your items id. You can't sell items without an id." if @id_param=="no_id"
+      raise ArgumentError, "VENDOR WARNING: You're missing the shared secret." if @subscription_param && @secret_param=="no_secret"
+      
+      # Initialize product and purchase
+      # @info = Vendor::Info.new(@id_param, @secret_param)
+      # @buy = Vendor::Buy.new(@id_param, @secret_param)
 
-  def update(&result)
-    # ap "ProductManager update"
-    @result = result
-    productsRequest = SKProductsRequest.alloc.initWithProductIdentifiers(NSSet.setWithObject(@product_id))
-    productsRequest.delegate = self
-    productsRequest.start
-  end
+      # Update product and set exists variable
+      @info = Vendor::Info.new(@id_param, @secret_param) do |block|
+        @exists = block.success
+        @result_param.call(block) unless @result_param.nil?
+      end
 
-  def update_receipt
-    # ap "ProductManager update_receipt"
-    # ap "update_receipt 1"
-    receipt_data = App::Persistence["#{@product_id}.receipt_data"]
-    # ap "update_receipt 2"
-    @receipt = Receipt.new(receipt_data, @shared_secret) do |response|
-      # ap "update_receipt succeeded: #{response.object}"
-      # ap "update_receipt 3"
-      App::Persistence["#{@product_id}.receipt"] = response.object if response.success
-      # ap "update_receipt 4"
+      # @product.update_receipt if is_subscription?
     end
-  end
 
-# Product properties  
 
-  def price
-    # ap "ProductManager price"
-    price_locale = NSLocale.alloc.initWithLocaleIdentifier(App::Persistence["#{@product_id}.priceLocale"] || "en_US@currency=USD")
-    price = App::Persistence["#{@product_id}.price"] || "0.99"
 
-    formatter = NSNumberFormatter.alloc.init
-    formatter.setFormatterBehavior(NSNumberFormatterBehavior10_4)
-    formatter.setNumberStyle(NSNumberFormatterCurrencyStyle)
-    formatter.setLocale(price_locale)
+    # Update product info and receipt
 
-    formatter.stringFromNumber(price) 
-  end
-
-  def title
-    # ap "ProductManager title"
-    App::Persistence["#{@product_id}.localizedTitle"] || "Title is not ready"
-  end
-
-  def description
-    # ap "ProductManager description"
-    App::Persistence["#{@product_id}.localizedDescription"] || "Description is not ready"
-  end
-
-  def product_bought
-    App::Persistence["#{@product_id}.receipt"].present?
-  end
-
-  # TODO - Check if purchase is subscription
-  def is_subscription
-    # ap "ProductManager is_subscription"
-    return false if !product_bought
-    receipt_object = BW::JSON.parse(App::Persistence["#{@product_id}.receipt"]).to_object
-    receipt_object.receipt['expires_date'].present?
-  end
-
-  def subscription_active
-    # ap "ProductManager subscription_active"
-    return false if !product_bought
-    receipt_object = BW::JSON.parse(App::Persistence["#{@product_id}.receipt"]).to_object
-    return false if receipt_object.blank? || receipt_object.status!=0
-
-    decoder = CocoaSecurityDecoder.new
-    latest_receipt_data = decoder.base64(receipt_object.latest_receipt)
-    latest_receipt_plist = NSPropertyListSerialization.propertyListWithData(latest_receipt_data, options:NSPropertyListImmutable, format:nil, error:nil)
-
-    purchase_info_data = decoder.base64(latest_receipt_plist.objectForKey("purchase-info"))
-    purchase_info_plist = NSPropertyListSerialization.propertyListWithData(purchase_info_data, options:NSPropertyListImmutable, format:nil, error:nil)
-
-    expires_date = purchase_info_plist.objectForKey("expires-date")
-    # ap "expires_date: #{expires_date}"
-    expires_calc = expires_date.to_i/1000
-
-    return expires_calc > NSDate.date.timeIntervalSince1970
-  end
-
-# Delegate methods
-
-  def productsRequest(request, didReceiveResponse:response) 
-    product_exists = response.invalidProductIdentifiers.count==0
-
-    @result.call({success: product_exists, response: response}.to_object)
-
-    # Save needed product info
-    if product_exists
-      product = response.products.first
-      # ap "ProductManager 3"
-      App::Persistence["#{@product_id}.priceLocale"] = product.priceLocale.localeIdentifier
-      # ap "ProductManager 4"
-      App::Persistence["#{@product_id}.price"] = product.price
-      # ap "ProductManager 5"
-      App::Persistence["#{@product_id}.localizedTitle"] = product.localizedTitle
-      # ap "ProductManager 6"
-      App::Persistence["#{@product_id}.localizedDescription"] = product.localizedDescription
-      # ap "ProductManager 7"
+    def update_receipt(&result)
+      @product.update_receipt { |product_result| result.call(product_result) }
     end
-  end
- 
-  def request(request, didFailWithError:error)
-    @result.call({success: false, error: error}.to_object)
-  end
 
+
+
+    # Purchase and restore product
+    def purchase(&result)
+      @purchase.purchase { |purchase_result| result.call(purchase_result)}
+    end
+
+    def restore(&result)
+      @purchase.restore { |restore_result| result.call(restore_result)}
+    end
+
+
+
+    # Getting information on product
+    def price
+      @product.price
+    end
+
+    def title
+      @product.title
+    end
+
+    def description
+      @product.description
+    end
+
+
+
+    # Checking things on product
+    def exists?
+      @exists || false
+    end
+
+    def purchased?
+      @product.product_bought
+    end
+
+    def subscription?
+      @product.is_subscription
+    end
+
+    def subscribed?
+      @product.subscription_active
+    end
+
+  end
 end

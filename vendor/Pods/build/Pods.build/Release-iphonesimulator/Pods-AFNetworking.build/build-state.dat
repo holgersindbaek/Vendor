@@ -200,7 +200,7 @@ s5621000
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf0a3f2da8105b841^c6a3fcda8105b841^---0#1#1#--18"Check dependencies36"E6F72EC2-68BA-4B0B-82B1-37EF464A4D06-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies44f8f727f407b841^d21b1e28f407b841^---0#1#1#--18"Check dependencies36"3200F18D-BC79-480B-818E-D9DF0532F7EB-
 
 CCompileC build/Pods.build/Release-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/AFHTTPClient.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403013497.027234
@@ -378,15 +378,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compil
 bB6005090-5353-473E-93CF-3C1C88974C96
 
 CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a normal i386
-s403014106.995909
-e403014107.006958
+s403174440.127206
+e403174440.154746
 r1
 xLibtool
 x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"[1mLibtool[0m .build/libPods-AFNetworking.a normal i38657"[1mLibtool[0m .build/libPods-AFNetworking.a normal i386151bffda8105b841^04cb01db8105b841^---0#0#1#--1337"[1mLibtool[0m .build/libPods-AFNetworking.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/Pods-AFNetworking.LinkFileList -framework Foundation -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a36"D7C0E584-3E4B-4A05-9150-5D3B1DEBE817-
-b6FDBF9A0-2877-4134-BE90-E0F5F7EE92C6
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"[1mLibtool[0m .build/libPods-AFNetworking.a normal i38657"[1mLibtool[0m .build/libPods-AFNetworking.a normal i38629cb2028f407b841^389e2728f407b841^---0#0#1#--1450"[1mLibtool[0m .build/libPods-AFNetworking.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/usr/local/heroku/bin:/usr/local/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/Pods-AFNetworking.LinkFileList -framework Foundation -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a36"FCA61440-07A8-4926-AEF4-4DAEB0B9E4C5-
+b38C7C72B-70F3-46F6-BEBF-1A350B16BFA8
 
 CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-AFNetworking-prefix-ckjgtwwkyhxljlfpgttikwozbtut/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403013496.374887

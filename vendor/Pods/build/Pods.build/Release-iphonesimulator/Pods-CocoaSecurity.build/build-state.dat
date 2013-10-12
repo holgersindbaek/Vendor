@@ -80,7 +80,7 @@ s5345508
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies66fa05db8105b841^394606db8105b841^---0#1#1#--18"Check dependencies36"BF8D0851-8E59-4EB5-9137-5C80CE4685DB-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2fde2b28f407b841^276b2c28f407b841^---0#1#1#--18"Check dependencies36"99FF4187-2229-4CFB-AF37-013D069FEA8C-
 
 CCompileC build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403013497.819891
@@ -114,15 +114,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compil
 b599B030F-C7F9-44B1-B779-604817610589
 
 CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a normal i386
-s403014107.029575
-e403014107.036146
+s403174440.178655
+e403174440.188193
 r1
 xLibtool
 x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i38658"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i3867ea907db8105b841^9e4309db8105b841^---0#0#1#--1341"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity.LinkFileList -framework Foundation -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a36"DC92C85A-9FE2-4A6E-BABE-7B034B4A623B-
-bBEF998EE-E35A-4ECC-89B8-44C093240F8C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i38658"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i38658e22d28f407b841^9d2d3028f407b841^---0#0#1#--1454"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/usr/local/heroku/bin:/usr/local/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity.LinkFileList -framework Foundation -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a36"DFD0F1EE-502B-407D-B694-86F826483BF3-
+b59D7C4A5-711C-40E6-9596-78F475DCFA27
 
 CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-cqtnsmlpnlcyebgjnjscgzcxjadp/Pods-CocoaSecurity-prefix.pch.pch Pods-CocoaSecurity-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403013497.534062

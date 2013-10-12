@@ -18,6 +18,8 @@ class DemoController < UIViewController
   def viewDidLoad
     super
 
+    # @product = Vendor::Product.new(:id => "10_coins")
+
     @product_buy.when(UIControlEventTouchUpInside){  }
     @product_price.when(UIControlEventTouchUpInside){  }
     @product_description.when(UIControlEventTouchUpInside){  }
