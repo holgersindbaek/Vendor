@@ -1,73 +1,55 @@
 module Vendor
   class Info
-    attr_accessor :id, :secret, :block
+    attr_accessor :params, :block
 
-    # Product Initializer
-    def initialize(id, secret, &block)
-      @id = id
-      @secret = secret
+    def initialize(params, &block)
+      @params = params
       @block = block
 
-      productsRequest = SKProductsRequest.alloc.initWithProductIdentifiers(NSSet.setWithObject(@id))
+      # Start product request
+      productsRequest = SKProductsRequest.alloc.initWithProductIdentifiers(NSSet.setWithObject(@params.id))
       productsRequest.delegate = self
       productsRequest.start
+
+      # Update receipt if bought and subscription
+      update_receipt if bought? && subscription?
     end
-      
-    # Product methods
+
+
+    # PUBLIC METHODS
     def update_receipt
-      # ap "ProductManager update_receipt"
-      # ap "update_receipt 1"
-      receipt_data = App::Persistence["#{@id}.receipt_data"]
-      # ap "update_receipt 2"
+      receipt_data = NSUserDefaults["#{@params.id}.receipt_data"]
       @receipt = Receipt.new(receipt_data, @secret) do |response|
-        # ap "update_receipt succeeded: #{response.object}"
-        # ap "update_receipt 3"
-        App::Persistence["#{@id}.receipt"] = response.object if response.success
-        # ap "update_receipt 4"
+        NSUserDefaults["#{@params.id}.receipt"] = response.object if response.success
       end
     end
 
-    # Product properties  
 
+    # INFO METHODS
     def price
-      # ap "ProductManager price"
-      price_locale = NSLocale.alloc.initWithLocaleIdentifier(App::Persistence["#{@id}.priceLocale"] || "en_US@currency=USD")
-      price = App::Persistence["#{@id}.price"] || "0.99"
-
-      formatter = NSNumberFormatter.alloc.init
-      formatter.setFormatterBehavior(NSNumberFormatterBehavior10_4)
-      formatter.setNumberStyle(NSNumberFormatterCurrencyStyle)
-      formatter.setLocale(price_locale)
-
-      formatter.stringFromNumber(price) 
+      price = NSUserDefaults["#{@params.id}.price"] || @params.price
+      price.to_f.string_with_style(NSNumberFormatterCurrencyStyle)
     end
 
     def title
-      # ap "ProductManager title"
-      App::Persistence["#{@id}.localizedTitle"] || "Title is not ready"
+      NSUserDefaults["#{@params.id}.localizedTitle"] || @params.title
     end
 
     def description
-      # ap "ProductManager description"
-      App::Persistence["#{@id}.localizedDescription"] || "Description is not ready"
+      NSUserDefaults["#{@params.id}.localizedDescription"] || @params.description
     end
 
-    def product_bought
-      App::Persistence["#{@id}.receipt"].present?
+    def bought?
+      NSUserDefaults["#{@params.id}.receipt"].present?
     end
 
-    # TODO - Check if purchase is subscription
-    def is_subscription
-      # ap "ProductManager is_subscription"
-      return false if !product_bought
-      receipt_object = BW::JSON.parse(App::Persistence["#{@id}.receipt"]).to_object
-      receipt_object.receipt['expires_date'].present?
+    def subscription?
+      return @params.subscription
     end
 
-    def subscription_active
-      # ap "ProductManager subscription_active"
-      return false if !product_bought
-      receipt_object = BW::JSON.parse(App::Persistence["#{@id}.receipt"]).to_object
+    def subscribed?
+      return false if !subscription?
+      receipt_object = BW::JSON.parse(App::Persistence["#{@params.id}.receipt"]).to_object
       return false if receipt_object.blank? || receipt_object.status!=0
 
       decoder = CocoaSecurityDecoder.new
@@ -84,28 +66,28 @@ module Vendor
       return expires_calc > NSDate.date.timeIntervalSince1970
     end
 
-  # Delegate methods
 
+    # DELEGATE METHODS
     def productsRequest(request, didReceiveResponse:response) 
-      # ap "didReceiveResponse: #{response}"
-      # ap "response.invalidProductIdentifiers.count: #{response.invalidProductIdentifiers.count}"
+      ap ""
+      ap response
+      ap response.invalidProductIdentifiers
+      ap response.products
       exists = response.invalidProductIdentifiers.count==0
-
-      # ap "exists: #{exists}"
 
       @block.call({success: exists, response: response}.to_object)
 
       # Save needed product info
-      # if exists
-      #   product = response.products.first
-      #   App::Persistence["#{@id}.priceLocale"] = product.priceLocale.localeIdentifier
-      #   App::Persistence["#{@id}.price"] = product.price
-      #   App::Persistence["#{@id}.localizedTitle"] = product.localizedTitle
-      #   App::Persistence["#{@id}.localizedDescription"] = product.localizedDescription
-      # end
+      if exists
+        product = response.products.first
+        App::Persistence["#{@params.id}.price"] = product.price
+        App::Persistence["#{@params.id}.localizedTitle"] = product.localizedTitle
+        App::Persistence["#{@params.id}.localizedDescription"] = product.localizedDescription
+      end
     end
    
     def request(request, didFailWithError:error)
+      NSLog "error: #{error.userInfo}"
       @block.call({success: false, error: error}.to_object)
     end
 

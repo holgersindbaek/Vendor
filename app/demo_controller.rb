@@ -18,10 +18,14 @@ class DemoController < UIViewController
   def viewDidLoad
     super
 
-    # @product = Vendor::Product.new(:id => "10_coins")
+    @product = Vendor::Product.new(:id => "com.holgersindbaek.vendor.10_coins") do |block|
+      ap block.success
+    end
 
     @product_buy.when(UIControlEventTouchUpInside){  }
-    @product_price.when(UIControlEventTouchUpInside){  }
+    @product_price.when(UIControlEventTouchUpInside){ 
+      ap @product.info.price
+    }
     @product_description.when(UIControlEventTouchUpInside){  }
     @product_title.when(UIControlEventTouchUpInside){  }
     @product_bought.when(UIControlEventTouchUpInside){  }
