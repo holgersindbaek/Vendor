@@ -6,6 +6,7 @@ require 'sugarcube-anonymous'
 require 'sugarcube-legacy'
 require 'sugarcube-numbers'
 require 'sugarcube-nsuserdefaults'
+require 'sugarcube-files'
 require 'motion-cocoapods'
 
 unless defined?(Motion::Project::Config)

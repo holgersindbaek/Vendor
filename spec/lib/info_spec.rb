@@ -1,3 +1,8 @@
+def (NSBundle.mainBundle).bundleIdentifier
+  puts 'NSBundle#bundleIdentifier called'
+  "CFBundleIdentifier".info_plist.gsub("_spec", "")
+end
+        
 describe "A - Vendor::Info" do
 
   before do
@@ -80,6 +85,9 @@ describe "A - Vendor::Info" do
       end
 
       it "should have correct id" do
+        puts "VALID:"
+        puts (NSBundle.mainBundle).bundleIdentifier
+
         wait_max(10) do
           @product.params.id.should.equal "com.holgersindbaek.vendor.10_coins"
         end

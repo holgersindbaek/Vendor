@@ -69,10 +69,9 @@ module Vendor
 
     # DELEGATE METHODS
     def productsRequest(request, didReceiveResponse:response) 
-      ap ""
-      ap response
-      ap response.invalidProductIdentifiers
-      ap response.products
+      NSLog "space"
+      NSLog "#{response.invalidProductIdentifiers}"
+      NSLog "#{response.products}"
       exists = response.invalidProductIdentifiers.count==0
 
       @block.call({success: exists, response: response}.to_object)
@@ -87,6 +86,7 @@ module Vendor
     end
    
     def request(request, didFailWithError:error)
+      NSLog "space"
       NSLog "error: #{error.userInfo}"
       @block.call({success: false, error: error}.to_object)
     end
