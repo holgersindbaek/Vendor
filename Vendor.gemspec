@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
-VENDOR_VERSION = "0.3"
+VENDOR_VERSION = "0.1"
 
 Gem::Specification.new do |spec|
-  spec.name          = "vendor"
+  spec.name          = "rm_vendor"
   spec.version       = VENDOR_VERSION
   spec.authors       = ["Holger Sindbaek"]
   spec.email         = ["HolgerSindbaek@gmail.com"]

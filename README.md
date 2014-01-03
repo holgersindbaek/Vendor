@@ -4,7 +4,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'Vendor'
+    gem 'rm_vendor'
 
 And then execute:
 
