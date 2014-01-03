@@ -1,101 +1,72 @@
 module Vendor
   class Buy
+    attr_accessor :params, :block, :request_operation_queue
 
-  # Purchase Initializer
-
-    def initialize(id, secret)
-      # ap "PurchaseManager initialize"
-      # ap "shared_secret: #{shared_secret}"
-      @product_id = id
-      @shared_secret = secret
-      @number = 0
+    def initialize(params)
+      @params = params
       SKPaymentQueue.defaultQueue.addTransactionObserver(self)
     end
 
-  # Purchase methods
-
-    def purchase(&result)
-      # ap "PurchaseManager purchase"
-      @result = result
-      SKPaymentQueue.defaultQueue.addPayment(SKPayment.paymentWithProductIdentifier(@product_id))
+    def close
+      SKPaymentQueue.defaultQueue.removeTransactionObserver(self)
     end
 
-    def restore(&result)
-      # ap "PurchaseManager restore"
-      @result = result
+
+
+    # PUBLIC METHODS
+    def purchase(&block)
+      @block = block
+      SKPaymentQueue.defaultQueue.addPayment(SKPayment.paymentWithProductIdentifier(@params.id))
+    end
+
+    def restore(&block)
+      @block = block
       SKPaymentQueue.defaultQueue.restoreCompletedTransactions
     end
 
-  # Delegate methods
 
-    def paymentQueueRestoreCompletedTransactionsFinished(queue)
-      # ap "PurchaseManager paymentQueueRestoreCompletedTransactionsFinished"
-    end
 
-    def paymentQueue(queue, restoreCompletedTransactionsFailedWithError:error)
-      # ap "PurchaseManager paymentQueue restoreCompletedTransactionsFailedWithError"
-    end
-
-    def finishTransaction(transaction, wasSuccessful:wasSuccessful)
-      # ap "PurchaseManager finishTransaction"
+    # DELEGATE METHODS
+    def finishTransaction(transaction, success:success)
       SKPaymentQueue.defaultQueue.finishTransaction(transaction)
+      SKPaymentQueue.defaultQueue.removeTransactionObserver(self)
+      
+      if success
+        Vendor::Receipt.new(transaction.transactionReceipt, @params) do |block|
+          result_object = BW::JSON.parse(block.object).to_object
+          valid_receipt = block.success && result_object.status.to_i == 0
 
-      if wasSuccessful
-        # ap "PurchaseManager finishTransaction if"
-        @receipt = Receipt.new(transaction.transactionReceipt, @shared_secret) do |result|
-          # ap "PurchaseManager finishTransaction result: #{result}"
-          # ap "result.object: #{result.object}"
-          result_object = BW::JSON.parse(result.object).to_object
-          # ap "result_object.status: #{result_object.status}"
-
-          # TODO - if subscription only be success if still active
-          if result.success && result_object.status.to_i==0
-            # ap "PurchaseManager finishTransaction result.success"
-            App::Persistence["#{@product_id}.receipt_data"] = transaction.transactionReceipt
-            App::Persistence["#{@product_id}.receipt"] = result.object
-            @result.call({success: true, transaction: transaction}.to_object) unless @result.blank?
-          else
-            # ap "PurchaseManager finishTransaction result.failure"
-            @result.call({success: false, transaction: transaction}.to_object) unless @result.blank?
-          end
+          @block.call({success: valid_receipt, transaction: transaction}.to_object) unless @block.blank?
         end
       else
-        # ap "PurchaseManager finishTransaction else"
-        @result.call({success: wasSuccessful, transaction: transaction}.to_object) unless @result.blank?
+        @block.call({success: success, transaction: transaction}.to_object) unless @block.blank?
       end
     end
 
-    def completeTransaction(transaction)
-      # ap "PurchaseManager completeTransaction"
-      finishTransaction(transaction, wasSuccessful:true)
-    end
-
-    def restoreTransaction(transaction)
-      # ap "PurchaseManager restoreTransaction"
-      finishTransaction(transaction, wasSuccessful:true)
-    end
-
-    def failedTransaction(transaction)
-      # ap "PurchaseManager failedTransaction transaction: #{transaction}"
-      finishTransaction(transaction, wasSuccessful:false)
-    end
-
-    def paymentQueue(queue,updatedTransactions:transactions)
-      # ap "PurchaseManager paymentQueue updatedTransactions"
+    def paymentQueue(queue, updatedTransactions:transactions)
       transactions.each do |transaction|
         case transaction.transactionState
           when SKPaymentTransactionStatePurchased
-            # ap "SKPaymentTransactionStatePurchased"
             completeTransaction(transaction)
           when SKPaymentTransactionStateFailed
-            # ap "SKPaymentTransactionStateFailed"
             failedTransaction(transaction)
           when SKPaymentTransactionStateRestored
-            # ap "SKPaymentTransactionStateRestored"
             restoreTransaction(transaction)
           else 
         end
       end
+    end
+
+    def completeTransaction(transaction)
+      finishTransaction(transaction, success:true)
+    end
+
+    def restoreTransaction(transaction)
+      finishTransaction(transaction, success:true)
+    end
+
+    def failedTransaction(transaction)
+      finishTransaction(transaction, success:false)
     end
 
   end

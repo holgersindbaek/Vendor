@@ -1,8 +1,3 @@
-def (NSBundle.mainBundle).bundleIdentifier
-  puts 'NSBundle#bundleIdentifier called'
-  "CFBundleIdentifier".info_plist.gsub("_spec", "")
-end
-        
 describe "A - Vendor::Info" do
 
   before do
@@ -14,7 +9,7 @@ describe "A - Vendor::Info" do
 
   context "B - Product is invalid" do
 
-    context "C - In-app purchase" do
+    describe "C - In-app purchase" do
 
       before do
         @product = Vendor::Product.new(:id => "10_coins") do |block|
@@ -26,7 +21,7 @@ describe "A - Vendor::Info" do
 
       it "should have correct id" do
         wait_max(10) do
-          @product.params.id.should.equal "10_coins"
+          @info.params.id.should.equal "10_coins"
         end
       end
 
@@ -74,7 +69,7 @@ describe "A - Vendor::Info" do
 
   context "B - Product is valid" do
 
-    context "C - In-app purchase" do
+    describe "C - In-app purchase" do
 
       before do
         @product = Vendor::Product.new(:id => "com.holgersindbaek.vendor.10_coins") do |block|
@@ -85,11 +80,9 @@ describe "A - Vendor::Info" do
       end
 
       it "should have correct id" do
-        puts "VALID:"
-        puts (NSBundle.mainBundle).bundleIdentifier
 
         wait_max(10) do
-          @product.params.id.should.equal "com.holgersindbaek.vendor.10_coins"
+          @info.params.id.should.equal "com.holgersindbaek.vendor.10_coins"
         end
       end
 
@@ -109,7 +102,7 @@ describe "A - Vendor::Info" do
 
     end
 
-    context "Subscription" do
+    context "C - Subscription" do
 
       before do
         @product = Vendor::Product.new(:id => "com.holgersindbaek.vendor.monthly", :subscription => true, :secret => "5bf47f7f8607453c93d5fc69c3426bde") do |block|
@@ -127,7 +120,7 @@ describe "A - Vendor::Info" do
 
       it "should have correct shared secret" do
         wait_max(10) do
-          @product.params.subscription.should.equal "5bf47f7f8607453c93d5fc69c3426bde"
+          @product.params.secret.should.equal "5bf47f7f8607453c93d5fc69c3426bde"
         end
       end
 

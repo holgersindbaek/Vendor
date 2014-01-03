@@ -1,122 +1,0 @@
-TPods-CocoaSecurity
-v6
-r1
-cCheck dependencies
-cProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-dmzqksvofcnuizdpxeoueokkogvy/Pods-CocoaSecurity-prefix.pch.pch Pods-CocoaSecurity-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-cqtnsmlpnlcyebgjnjscgzcxjadp/Pods-CocoaSecurity-prefix.pch.pch Pods-CocoaSecurity-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000525C34F70000000000A8EAD0
-t1381774583
-s11070160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
-c00000000521BCCE50000000000000176
-t1377553637
-s374
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
-c00000000525C350000000000000003B5
-t1381774592
-s949
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000525C3504000000000000019E
-t1381774596
-s414
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a
-t2
-s0
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m
-c000000005255436D0000000000006A32
-t1381319533
-s27186
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m
-c000000005255436D000000000000008C
-t1381319533
-s140
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-prefix.pch
-c000000005255436D000000000000004D
-t1381319533
-s77
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o
-t1382367943
-s77832
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o
-t1382367942
-s3372
-
-N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity.LinkFileList
-c00000000526542C60000000000000163
-t1382367942
-s355
-
-N/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-cqtnsmlpnlcyebgjnjscgzcxjadp/Pods-CocoaSecurity-prefix.pch.pch
-t1381915890
-s5337868
-
-N/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-dmzqksvofcnuizdpxeoueokkogvy/Pods-CocoaSecurity-prefix.pch.pch
-t1381915890
-s5345500
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdb8bc8467a15b841^8940c9467a15b841^---0#1#1#--18"Check dependencies36"41BF32F7-544A-481D-A68A-409C9652B377-
-
-CCompileC build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404060742.789573
-e404060743.019530
-r1
-xCompileC
-xbuild/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o
-x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m
-d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m238"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o [1mCocoaSecurity/CocoaSecurity/CocoaSecurity.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb43ca467a15b841^3f0005477a15b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m0000000000000000^4727"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o [1mCocoaSecurity/CocoaSecurity/CocoaSecurity.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=173 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CocoaSecurity -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CocoaSecurity -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-dmzqksvofcnuizdpxeoueokkogvy/Pods-CocoaSecurity-prefix.pch -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/CocoaSecurity/CocoaSecurity/CocoaSecurity.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/CocoaSecurity.o36"42C140E4-A5FE-4548-B97B-3342B6542D5B-
-b371166C6-E85B-438D-8BC3-5C6DC6A7F59D
-
-CCompileC build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404060742.789571
-e404060742.852131
-r1
-xCompileC
-xbuild/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o
-x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m232"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o [1mPods-CocoaSecurity-dummy.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3543ca467a15b841^1025da467a15b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m0000000000000000^4703"[1mCompileC[0m build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o [1mPods-CocoaSecurity-dummy.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=173 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Pods-CocoaSecurity-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CocoaSecurity -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CocoaSecurity -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-cqtnsmlpnlcyebgjnjscgzcxjadp/Pods-CocoaSecurity-prefix.pch -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CocoaSecurity-dummy.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity-dummy.o36"56E8D442-5ED8-438D-8BD3-729309E6B207-
-b371166C6-E85B-438D-8BC3-5C6DC6A7F59D
-
-CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a normal i386
-s404060743.027956
-e404060743.033944
-r1
-xLibtool
-x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i38658"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i3861c4007477a15b841^9fb008477a15b841^---0#0#1#--1357"[1mLibtool[0m .build/libPods-CocoaSecurity.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CocoaSecurity.build/Objects-normal/i386/Pods-CocoaSecurity.LinkFileList -framework Foundation -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CocoaSecurity.a36"2F982EAE-DC18-4891-B838-01DE7DAC0C93-
-b371166C6-E85B-438D-8BC3-5C6DC6A7F59D
-
-CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-cqtnsmlpnlcyebgjnjscgzcxjadp/Pods-CocoaSecurity-prefix.pch.pch Pods-CocoaSecurity-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Pods-CocoaSecurity-prefix-dmzqksvofcnuizdpxeoueokkogvy/Pods-CocoaSecurity-prefix.pch.pch Pods-CocoaSecurity-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-

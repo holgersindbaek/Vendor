@@ -18,21 +18,52 @@ class DemoController < UIViewController
   def viewDidLoad
     super
 
-    @product = Vendor::Product.new(:id => "com.holgersindbaek.vendor.10_coins") do |block|
-      ap block.success
+    @product = Vendor::Product.new(:id => "com.your.item.id") do |block|
+      NSLog "product: #{block.success}"
+      NSLog "block: #{block}"
     end
 
-    @product_buy.when(UIControlEventTouchUpInside){  }
-    @product_price.when(UIControlEventTouchUpInside){ 
-      ap @product.info.price
+    @product_buy.when(UIControlEventTouchUpInside){
+      @product.purchase do |block|
+        NSLog "Purchased product"
+      end
     }
-    @product_description.when(UIControlEventTouchUpInside){  }
-    @product_title.when(UIControlEventTouchUpInside){  }
-    @product_bought.when(UIControlEventTouchUpInside){  }
 
-    @subscription_buy.when(UIControlEventTouchUpInside){  }
-    @subscription_active.when(UIControlEventTouchUpInside){  }
-    @subscription_check.when(UIControlEventTouchUpInside){  }
+    @product_price.when(UIControlEventTouchUpInside){
+      NSLog @product.price
+    }
+
+    @product_description.when(UIControlEventTouchUpInside){
+      NSLog @product.description
+    }
+
+    @product_title.when(UIControlEventTouchUpInside){
+      NSLog @product.title
+    }
+
+    @product_bought.when(UIControlEventTouchUpInside){
+      NSLog "#{@product.bought?}"
+    }
+
+
+
+    @subscription = Vendor::Product.new(:id => "com.your.subscription.id", :secret => "abcdefg12345", :subscription => true) do |block|
+      NSLog "subscription: #{block.success}"
+    end
+
+    @subscription_buy.when(UIControlEventTouchUpInside){
+      @subscription.purchase do |block|
+        NSLog "Purchased subscription"
+      end
+    }
+
+    @subscription_active.when(UIControlEventTouchUpInside){
+      NSLog "#{@subscription.subscribed?}"
+    }
+
+    @subscription_check.when(UIControlEventTouchUpInside){
+      NSLog "#{@subscription.subscription?}"
+    }
 
   end
 

@@ -12,17 +12,9 @@ module Vendor
       productsRequest.start
 
       # Update receipt if bought and subscription
-      update_receipt if bought? && subscription?
+      Vendor::Receipt.new(NSUserDefaults["#{@params.id}.receipt_data"], @params) if bought? && subscription?
     end
 
-
-    # PUBLIC METHODS
-    def update_receipt
-      receipt_data = NSUserDefaults["#{@params.id}.receipt_data"]
-      @receipt = Receipt.new(receipt_data, @secret) do |response|
-        NSUserDefaults["#{@params.id}.receipt"] = response.object if response.success
-      end
-    end
 
 
     # INFO METHODS
@@ -36,20 +28,20 @@ module Vendor
     end
 
     def description
-      NSUserDefaults["#{@params.id}.localizedDescription"] || @params.description
+      NSUserDefaults["#{@params.id}.localizedDescription"] || @params.desc
     end
 
     def bought?
-      NSUserDefaults["#{@params.id}.receipt"].present?
+      NSUserDefaults["#{@params.id}.receipt"] != nil
     end
 
     def subscription?
-      return @params.subscription
+      @params.subscription
     end
 
     def subscribed?
       return false if !subscription?
-      receipt_object = BW::JSON.parse(App::Persistence["#{@params.id}.receipt"]).to_object
+      receipt_object = BW::JSON.parse(NSUserDefaults["#{@params.id}.receipt"]).to_object
       return false if receipt_object.blank? || receipt_object.status!=0
 
       decoder = CocoaSecurityDecoder.new
@@ -57,6 +49,7 @@ module Vendor
       latest_receipt_plist = NSPropertyListSerialization.propertyListWithData(latest_receipt_data, options:NSPropertyListImmutable, format:nil, error:nil)
 
       purchase_info_data = decoder.base64(latest_receipt_plist.objectForKey("purchase-info"))
+      purchase_info_plist = NSPropertyListSerialization.propertyListWithData(purchase_info_data, options:NSPropertyListImmutable, format:nil, error:nil)
       purchase_info_plist = NSPropertyListSerialization.propertyListWithData(purchase_info_data, options:NSPropertyListImmutable, format:nil, error:nil)
 
       expires_date = purchase_info_plist.objectForKey("expires-date")
@@ -67,27 +60,23 @@ module Vendor
     end
 
 
+
     # DELEGATE METHODS
     def productsRequest(request, didReceiveResponse:response) 
-      NSLog "space"
-      NSLog "#{response.invalidProductIdentifiers}"
-      NSLog "#{response.products}"
       exists = response.invalidProductIdentifiers.count==0
-
-      @block.call({success: exists, response: response}.to_object)
 
       # Save needed product info
       if exists
         product = response.products.first
-        App::Persistence["#{@params.id}.price"] = product.price
-        App::Persistence["#{@params.id}.localizedTitle"] = product.localizedTitle
-        App::Persistence["#{@params.id}.localizedDescription"] = product.localizedDescription
+        NSUserDefaults["#{@params.id}.price"] = product.price
+        NSUserDefaults["#{@params.id}.localizedTitle"] = product.localizedTitle
+        NSUserDefaults["#{@params.id}.localizedDescription"] = product.localizedDescription
       end
+
+      @block.call({success: exists, response: response}.to_object)
     end
    
     def request(request, didFailWithError:error)
-      NSLog "space"
-      NSLog "error: #{error.userInfo}"
       @block.call({success: false, error: error}.to_object)
     end
 

@@ -2,7 +2,7 @@
 VENDOR_VERSION = "0.3"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Vendor"
+  spec.name          = "vendor"
   spec.version       = VENDOR_VERSION
   spec.authors       = ["Holger Sindbaek"]
   spec.email         = ["HolgerSindbaek@gmail.com"]
@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rake"
   spec.add_dependency "sugarcube"
-  spec.add_dependency "bubble-wrap", "~> 1.3.0"
-  spec.add_dependency 'motion-cocoapods', '>= 1.3.7'
+  spec.add_dependency "bubble-wrap"
+  spec.add_dependency "motion-cocoapods"
 end
