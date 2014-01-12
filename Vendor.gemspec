@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-VENDOR_VERSION = "0.1"
+VENDOR_VERSION = "0.2"
 
 Gem::Specification.new do |spec|
   spec.name          = "rm_vendor"
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "rake"
+  spec.add_dependency "motion-cocoapods"
   spec.add_dependency "sugarcube"
   spec.add_dependency "bubble-wrap"
-  spec.add_dependency "motion-cocoapods"
 end
