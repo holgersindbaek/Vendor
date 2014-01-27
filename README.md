@@ -14,19 +14,18 @@ And then execute:
 
 #### Initialize.
 
-Initialize your product with your In App Purchase ID. Vendor will check if the product exists and return it's attributes:
+Initialize your products with your In App Purchase ID. Vendor will check if the product exists and return it's attributes:
     
 ```Ruby
-@product = Vendor::Product.new(:id => "com.your.item.id") do |product|
-  p "Product exists: #{product.success}"
-  p "Product response: #{product.response}"
+@products = Vendor::Products.new([{:name => "first_item", :id => "com.your.first_item.id"}, {:name => "second_item", :id => "com.your.second_item.id"}]) do |products|
+  products.map{ |product| NSLog "Product exists?: #{product.success}" }
 end
 ```
 
 You don't need to pass along a block though. If you're sure your product exists, then you can just do this:
       
 ```Ruby
-@product = Vendor::Product.new(:id => "com.your.item.id")
+@products = Vendor::Products.new([{:name => "first_item", :id => "com.your.first_item.id"}, {:name => "second_item", :id => "com.your.second_item.id"}])
 ```
 
 #### Get product info.
@@ -34,10 +33,10 @@ You don't need to pass along a block though. If you're sure your product exists,
 After you've initialized your product, you get its information:
   
 ```Ruby
-@product.price
-@product.title
-@product.description
-@product.bought?
+@product[:first_item].price
+@product[:first_item].title
+@product[:first_item].description
+@product[:first_item].bought?
 ```
 
 #### Purchase product.
@@ -45,7 +44,7 @@ After you've initialized your product, you get its information:
 To purchase a product, simply do:
 
 ```Ruby
-@product.purchase do |product|
+@product[:first_item].purchase do |product|
   p "Purchase successful: #{product.success}"
   p "Purchase transaction: #{product.transaction}"
 end
@@ -56,16 +55,15 @@ end
 Vendor also works with subscriptions. To initialize a subscription:
 
 ```Ruby
-@subscription = Vendor::Product.new(:id => "com.your.subscription.id", :secret => "abcdefg12345", :subscription => true) do |subscription|
-  p "Subscription exists: #{subscription.success}"
-  p "Subscription response: #{subscription.response}"
+@subscription_products = Vendor::Products.new([{:name => "subscription", :id => "com.your.subscription.id", :secret => "abcdefg12345", :subscription => true}]) do |subscriptions|
+  subscriptions.map{ |subscription| NSLog "Subscription exists?: #{subscription.success}" }
 end
 ```
 
 To purchase a subscription:
 
 ```Ruby
-@subscription.purchase do |subscription|
+@subscription_products[:subscription].purchase do |subscription|
   p "Subscription successful: #{subscription.success}"
   p "Subscription transaction: #{subscription.transaction}"
 end
@@ -74,8 +72,8 @@ end
 To see wether product is registered as a subscription and if user is currently subscribed:
 
 ```Ruby
-@subscription.subscribed?
-@subscription.subscription?
+@subscription_products[:subscription].subscribed?
+@subscription_products[:subscription].subscription?
 ```
 
 ## Example App.

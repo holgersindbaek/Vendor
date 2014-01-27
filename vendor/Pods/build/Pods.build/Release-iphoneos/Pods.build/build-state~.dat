@@ -1,0 +1,147 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
+cLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
+cCreateUniversalBinary /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a normal armv7\ armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052978189000000000000036B
+t1385660809
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005297818A00000000000001A0
+t1385660810
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000529781920000000000A92BC0
+t1385660818
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005297903C0000000000000AC9
+t1385664572
+s2761
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-AFNetworking.a
+c0000000052E036D9000000000028F7D0
+t1390425817
+s2684880
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a
+c0000000052E036D9000000000004DAA8
+t1390425817
+s318120
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a
+t2
+s0
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+c0000000052E036480000000000000070
+t1390425672
+s112
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+t1390425817
+s3584
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
+c0000000052E036D90000000000000095
+t1390425817
+s149
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
+t1390425817
+s1505184
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+t1390425817
+s3584
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
+c0000000052E036D90000000000000096
+t1390425817
+s150
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
+t1390425817
+s1505000
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese50a7b596e90b841^65717b596e90b841^---0#1#1#--18"Check dependencies36"C40DF404-5F27-4783-AF7E-9A3F251EB9D3-
+
+CCompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412118617.482649
+e412118617.506739
+r1
+xCompileC
+xbuild/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m169"CompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb4ac7b596e90b841^e0bb81596e90b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m0000000000000000^4328"CompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/AFNetworking -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/CargoBay -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o36"D566C028-3709-4CB6-94B4-2ACFCA310DED-
+b1B0A6D96-F78E-47B6-8400-B619664A1667
+
+CCompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412118617.482858
+e412118617.506910
+r1
+xCompileC
+xbuild/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m171"CompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler80b87b596e90b841^cac481596e90b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m0000000000000000^4335"CompileC build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/AFNetworking -isystem/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods/Headers/CargoBay -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-dummy.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"4D612DD3-33D7-4665-8D24-D305D81A99A3-
+b1B0A6D96-F78E-47B6-8400-B619664A1667
+
+CCreateUniversalBinary /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a normal armv7\ armv7s
+s412118617.550890
+e412118617.633348
+r1
+xCreateUniversalBinary
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a
+xnormal
+xarmv7 armv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Create universal binary /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a59"CreateUniversalBinary .build/libPods.a normal armv7\ armv7s14258d596e90b841^ea25a2596e90b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a0034946fdcffdf42^1058"CreateUniversalBinary .build/libPods.a normal armv7\ armv7s    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    libtool -static /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods.a36"64537E5A-C31B-4959-B383-07942E261C09-
+b1B0A6D96-F78E-47B6-8400-B619664A1667
+
+CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
+s412118617.507523
+e412118617.550366
+r1
+xLibtool
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv796"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7c00882596e90b841^60e58c596e90b841^---0#0#1#--1422"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-CargoBay -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a36"D03E92C1-CFD4-48A8-BEEF-CA865DF78D12-
+b1B0A6D96-F78E-47B6-8400-B619664A1667
+
+CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
+s412118617.507717
+e412118617.546619
+r1
+xLibtool
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s98"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s771182596e90b841^e1ef8b596e90b841^---0#0#1#--1427"Libtool build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-CargoBay -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a36"0200EC1F-899B-4300-B3E3-E0942DB2DEB3-
+b1B0A6D96-F78E-47B6-8400-B619664A1667
+

@@ -2,20 +2,11 @@ module Vendor
   class Product
     attr_reader :params, :block, :exists, :info, :buy
 
-    def initialize(options={}, &block)
-      # Set default options
-      default_options = {
-        :id => "no_id",
-        :secret => "no_secret",
-        :subscription => false,
-        :price => "0.99",
-        :title => "No Title",
-        :desc => "No Description."
-      }
+    def initialize(options, buy_class, &block)
 
-      # Set global params and block
-      options = default_options.merge(options)
-      @params = options.to_object
+      # Set params and block
+      @buy = buy_class
+      @params = options
       @block = block
 
       # Raise argument error if id is not included
@@ -27,20 +18,17 @@ module Vendor
         @exists = block.success
         @block.call(block) unless @block.nil?
       end
-
-      # Initialize purchase
-      @buy = Vendor::Buy.new(@params)
     end
 
 
 
     # PURCHASE METHODS
     def purchase(&block)
-      @buy.purchase { |result| block.call(result)}
+      @buy.purchase(@params) { |result| block.call(result)}
     end
 
     def restore(&block)
-      @buy.restore { |result| block.call(result)}
+      @buy.restore(@params) { |result| block.call(result)}
     end
 
 

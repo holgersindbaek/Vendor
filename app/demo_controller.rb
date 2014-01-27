@@ -18,51 +18,52 @@ class DemoController < UIViewController
   def viewDidLoad
     super
 
-    @product = Vendor::Product.new(:id => "com.your.item.id") do |block|
-      NSLog "product: #{block.success}"
-      NSLog "block: #{block}"
+    # Instantiate products
+    subscription_name = MY_ENV['SUBSCRIPTION_NAME'] || "subscription"
+    subscription_id = MY_ENV['SUBSCRIPTION_ID'] || "com.your.subscription.id"
+    subscription_secret = MY_ENV['SUBSCRIPTION_SECRET'] || "abcdefg12345"
+    product_name = MY_ENV['ITEM_NAME'] || "coins"
+    product_id = MY_ENV['ITEM_ID'] || "com.your.item.id"
+    @products = Vendor::Products.new([{:name =>  subscription_name, :id => subscription_id, :secret => subscription_secret, :subscription => true}, {:name =>  product_name, :id => product_id}]) do |products|
+      products.map{ |p| NSLog "p: #{p}" }
     end
 
     @product_buy.when(UIControlEventTouchUpInside){
-      @product.purchase do |block|
-        NSLog "Purchased product"
+      @products[product_name].purchase do |block|
+        NSLog "Product Purchased: #{block[:success]}"
+        NSLog "Block: #{block}"
       end
     }
 
     @product_price.when(UIControlEventTouchUpInside){
-      NSLog @product.price
+      NSLog @products[product_name].price
     }
 
     @product_description.when(UIControlEventTouchUpInside){
-      NSLog @product.description
+      NSLog @products[product_name].description
     }
 
     @product_title.when(UIControlEventTouchUpInside){
-      NSLog @product.title
+      NSLog @products[product_name].title
     }
 
     @product_bought.when(UIControlEventTouchUpInside){
-      NSLog "#{@product.bought?}"
+      NSLog "#{@products[product_name].bought?}"
     }
 
-
-
-    @subscription = Vendor::Product.new(:id => "com.your.subscription.id", :secret => "abcdefg12345", :subscription => true) do |block|
-      NSLog "subscription: #{block.success}"
-    end
-
     @subscription_buy.when(UIControlEventTouchUpInside){
-      @subscription.purchase do |block|
-        NSLog "Purchased subscription"
+      @products[subscription_name].purchase do |block|
+        NSLog "Subscription Purchased: #{block[:success]}"
+        NSLog "Block: #{block}"
       end
     }
 
     @subscription_active.when(UIControlEventTouchUpInside){
-      NSLog "#{@subscription.subscribed?}"
+      NSLog "#{@products[subscription_name].subscribed?}"
     }
 
     @subscription_check.when(UIControlEventTouchUpInside){
-      NSLog "#{@subscription.subscription?}"
+      NSLog "#{@products[subscription_name].subscription?}"
     }
 
   end

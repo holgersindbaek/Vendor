@@ -2,8 +2,7 @@ module Vendor
   class Buy
     attr_accessor :params, :block, :request_operation_queue
 
-    def initialize(params)
-      @params = params
+    def initialize
       SKPaymentQueue.defaultQueue.addTransactionObserver(self)
     end
 
@@ -14,12 +13,14 @@ module Vendor
 
 
     # PUBLIC METHODS
-    def purchase(&block)
+    def purchase(params, &block)
+      @params = params
       @block = block
       SKPaymentQueue.defaultQueue.addPayment(SKPayment.paymentWithProductIdentifier(@params.id))
     end
 
-    def restore(&block)
+    def restore(params, &block)
+      @params = params
       @block = block
       SKPaymentQueue.defaultQueue.restoreCompletedTransactions
     end
@@ -29,13 +30,13 @@ module Vendor
     # DELEGATE METHODS
     def finishTransaction(transaction, success:success)
       SKPaymentQueue.defaultQueue.finishTransaction(transaction)
-      SKPaymentQueue.defaultQueue.removeTransactionObserver(self)
-      
-      if success
-        Vendor::Receipt.new(transaction.transactionReceipt, @params) do |block|
-          result_object = BW::JSON.parse(block.object).to_object
-          valid_receipt = block.success && result_object.status.to_i == 0
+      return if @params.nil?
+      password = @params.secret=="no_secret" ? nil : @params.secret
 
+      if success
+        # Verify transaction receipt
+        Vendor::Receipt.new(transaction.transactionReceipt, @params) do |block|
+          valid_receipt = block[:success] && block[:object][:status]==0
           @block.call({success: valid_receipt, transaction: transaction}.to_object) unless @block.blank?
         end
       else

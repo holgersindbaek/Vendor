@@ -12,7 +12,10 @@ module Vendor
       productsRequest.start
 
       # Update receipt if bought and subscription
-      Vendor::Receipt.new(NSUserDefaults["#{@params.id}.receipt_data"], @params) if bought? && subscription?
+      receipt = NSUserDefaults["#{@params.id}.receipt"]
+      decoder = CocoaSecurityDecoder.new
+      latest_receipt_data = decoder.base64(receipt[:latest_receipt])
+      Vendor::Receipt.new(latest_receipt_data, @params) if bought? && subscription?
     end
 
 
@@ -40,22 +43,26 @@ module Vendor
     end
 
     def subscribed?
-      return false if !subscription?
-      receipt_object = BW::JSON.parse(NSUserDefaults["#{@params.id}.receipt"]).to_object
-      return false if receipt_object.blank? || receipt_object.status!=0
+      # Return false if product is not a subscription or not bought
+      return false if !subscription? || !bought?
+      receipt = NSUserDefaults["#{@params.id}.receipt"]
+      return false if receipt[:status].to_i!=0
 
+      # Get the latest receipt
+      receipt = NSUserDefaults["#{@params.id}.receipt"]
       decoder = CocoaSecurityDecoder.new
-      latest_receipt_data = decoder.base64(receipt_object.latest_receipt)
+      latest_receipt_data = decoder.base64(receipt[:latest_receipt])
       latest_receipt_plist = NSPropertyListSerialization.propertyListWithData(latest_receipt_data, options:NSPropertyListImmutable, format:nil, error:nil)
 
+      # Get the time for the latest receipt
       purchase_info_data = decoder.base64(latest_receipt_plist.objectForKey("purchase-info"))
       purchase_info_plist = NSPropertyListSerialization.propertyListWithData(purchase_info_data, options:NSPropertyListImmutable, format:nil, error:nil)
-      purchase_info_plist = NSPropertyListSerialization.propertyListWithData(purchase_info_data, options:NSPropertyListImmutable, format:nil, error:nil)
 
+      # Manipulate the time for the latest receipt
       expires_date = purchase_info_plist.objectForKey("expires-date")
-      # ap "expires_date: #{expires_date}"
       expires_calc = expires_date.to_i/1000
 
+      # Check if the latest receipt is too old
       return expires_calc > NSDate.date.timeIntervalSince1970
     end
 
@@ -79,6 +86,5 @@ module Vendor
     def request(request, didFailWithError:error)
       @block.call({success: false, error: error}.to_object)
     end
-
   end
 end

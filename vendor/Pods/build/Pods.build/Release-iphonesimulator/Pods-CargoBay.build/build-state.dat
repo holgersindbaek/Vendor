@@ -1,0 +1,179 @@
+TPods-CargoBay
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000529781920000000000A92BC0
+t1385660818
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000052978194000000000017E0C0
+t1385660820
+s1564864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000529781940000000000091230
+t1385660820
+s594480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000529781BC00000000000003B5
+t1385660860
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000529781CD00000000000001A0
+t1385660877
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005297903C0000000000000AC9
+t1385664572
+s2761
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m
+c0000000052E23DA6000000000000EC6F
+t1390558630
+s60527
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a
+t2
+s0
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m
+c0000000052E23DC90000000000000082
+t1390558665
+s130
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch
+c0000000052E23DC9000000000000004D
+t1390558665
+s77
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o
+t1390650927
+s138836
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o
+t1390650926
+s3472
+
+N/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay.LinkFileList
+c0000000052E3A62E000000000000014F
+t1390650926
+s335
+
+N/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch
+t1390650926
+s119936
+
+N/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch
+t1390650926
+s120340
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0e11b7aedd93b841^5a9eb7aedd93b841^---0#1#1#--18"Check dependencies36"76421B80-B6F6-469D-9781-A5425FFC5546-
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412343726.753523
+e412343727.029327
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+o/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m:813:56: warning: 'requestWithMethod:URLString:parameters:' is deprecated [-Wdeprecated-declarations]
+o    NSURLRequest *request = [manager.requestSerializer requestWithMethod:method URLString:url.absoluteString parameters:parameters];
+o                                                       ^
+oIn file included from /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m:25:
+oIn file included from /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h:35:
+o/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h:150:1: note: method 'requestWithMethod:URLString:parameters:' declared here
+o- (NSMutableURLRequest *)requestWithMethod:(NSString *)method
+o^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m253"CompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera417c1aedd93b841^0a8207afdd93b841^-926"/Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m:813:56: warning: 'requestWithMethod:URLString:parameters:' is deprecated [-Wdeprecated-declarations]    NSURLRequest *request = [manager.requestSerializer requestWithMethod:method URLString:url.absoluteString parameters:parameters];                                                       ^In file included from /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m:25:In file included from /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h:35:/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h:150:1: note: method 'requestWithMethod:URLString:parameters:' declared here- (NSMutableURLRequest *)requestWithMethod:(NSString *)method^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@55"'requestWithMethod:URLString:parameters:' is deprecated-412343727#18446744073709551615#0#1(2@62"Method 'requestWithMethod:URLString:parameters:' declared here-412343727#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@130"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h0000000000000000^149#0#149#0#6194#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@91"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m0000000000000000^812#55#812#55#47295#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@91"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m0000000000000000^4761"CompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -include /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Cocoapods/CargoBay/CargoBay/CargoBay.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/CargoBay.o36"AE9B38EB-31C9-4786-AF36-BC9D6707E16D-
+b550AEF6A-925B-49C2-8610-5A070EB62A99
+
+CCompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412343726.753931
+e412343726.783346
+r1
+xCompileC
+xbuild/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m201"CompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o Pods-CargoBay-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5b24c1aedd93b841^bd8ac8aedd93b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m0000000000000000^4738"CompileC build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o Pods-CargoBay-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch -MMD -MT dependencies -MF /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.d --serialize-diagnostics /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.dia -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-dummy.m -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay-dummy.o36"A146DF21-75D1-4223-AF5F-73011370315F-
+b550AEF6A-925B-49C2-8610-5A070EB62A99
+
+CLibtool /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a normal i386
+s412343727.030213
+e412343727.036973
+r1
+xLibtool
+x/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Libtool .build/libPods-CargoBay.a normal i38645"Libtool .build/libPods-CargoBay.a normal i386ecdd07afdd93b841^c47809afdd93b841^---0#0#1#--1369"Libtool .build/libPods-CargoBay.a normal i386    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -filelist /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Objects-normal/i386/Pods-CargoBay.LinkFileList -framework Foundation -framework Security -framework StoreKit -o /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/libPods-CargoBay.a36"16FF0232-382D-489A-97DD-5CBDF5EE0BF2-
+b550AEF6A-925B-49C2-8610-5A070EB62A99
+
+CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412343726.718160
+e412343726.749667
+r1
+xProcessPCH
+x/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch
+xPods-CargoBay-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-CargoBay-prefix.pch300"ProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8cf3b7aedd93b841^e1ebbfaedd93b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch0000000000000000^4713"ProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.dia -MMD -MT dependencies -MF /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.d -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch -o /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-aeeqrejhmsfpppatmmxlcnrgndpx/Pods-CargoBay-prefix.pch.pch36"D03C5A5C-F41B-4D6E-A1D4-7BB4876BE4BF-
+b550AEF6A-925B-49C2-8610-5A070EB62A99
+
+CProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412343726.717857
+e412343726.752731
+r1
+xProcessPCH
+x/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch
+xPods-CargoBay-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch
+d/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-CargoBay-prefix.pch300"ProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8fe3b7aedd93b841^e1b4c0aedd93b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch0000000000000000^4724"ProcessPCH /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch Pods-CargoBay-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/holgersindbaek/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/holgersindbaek/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/heroku/bin:/usr/local/bin/Users/holgersindbaek/.rvm/gems/ruby-1.9.3-p125/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-generated-files.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-own-target-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-all-target-headers.hmap -iquote /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/Pods-CargoBay-project-headers.hmap -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build/include -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/BuildHeaders/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/AFNetworking -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Headers/CargoBay -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources/i386 -I/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/build/Pods.build/Release-iphonesimulator/Pods-CargoBay.build/DerivedSources -F/Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/.build -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc --serialize-diagnostics /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.dia -MMD -MT dependencies -MF /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.d -c /Users/holgersindbaek/Projects/*Defaults/Misc/Gems/Vendor/vendor/Pods/Pods-CargoBay-prefix.pch -o /var/folders/46/5zb4wnk14c9gtw_lfggfrvy40000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Pods-CargoBay-prefix-axerhqzqxlsydtfxeovqxfhnuqoo/Pods-CargoBay-prefix.pch.pch36"24C27A70-1A36-4D34-B434-E55AC6E66FCC-
+b550AEF6A-925B-49C2-8610-5A070EB62A99
+
