@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
     
 Include in your rakefile:
 
-    include 'vendor'
+    require 'vendor'
 
 And then execute:
 
