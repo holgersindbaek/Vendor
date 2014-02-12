@@ -5,15 +5,19 @@
 Add this line to your application's Gemfile:
 
     gem 'rm_vendor'
-    
-Include in your rakefile:
-
-    require 'vendor'
 
 And then execute:
 
     $ bundle
 
+Require in your rakefile:
+
+    require 'vendor'
+
+Install pod dependencies:
+
+    $ rake pod:install
+    
 ## USAGE
 
 #### Initialize.
