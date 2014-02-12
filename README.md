@@ -5,6 +5,10 @@
 Add this line to your application's Gemfile:
 
     gem 'rm_vendor'
+    
+Include in your rakefile:
+
+    include 'vendor'
 
 And then execute:
 
