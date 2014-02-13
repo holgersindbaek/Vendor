@@ -7,6 +7,7 @@ module Vendor
     end
 
     def initialize(products=[], &block)
+      NSLog "Products initialize"
       # Set up products array
       @products = []
 

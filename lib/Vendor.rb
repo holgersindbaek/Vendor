@@ -22,6 +22,6 @@ Motion::Project::App.setup do |app|
   app.frameworks += ['StoreKit']
   
   app.pods ||= Motion::Project::CocoaPods.new(app)
-  app.pods.pod 'CocoaSecurity', '~> 1.2.1'
-  app.pods.pod 'CargoBay', :git => 'https://github.com/holgersindbaek/CargoBay'
+  app.pods.pod 'CocoaSecurity'
+  app.pods.pod 'CargoBay', '~> 2.0.2'
 end

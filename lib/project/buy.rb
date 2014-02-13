@@ -47,11 +47,11 @@ module Vendor
     def paymentQueue(queue, updatedTransactions:transactions)
       transactions.each do |transaction|
         case transaction.transactionState
-          when SKPaymentTransactionStatePurchased
+          when 1 #SKPaymentTransactionStatePurchased
             completeTransaction(transaction)
-          when SKPaymentTransactionStateFailed
+          when 2 #SKPaymentTransactionStateFailed
             failedTransaction(transaction)
-          when SKPaymentTransactionStateRestored
+          when 3 #SKPaymentTransactionStateRestored
             restoreTransaction(transaction)
           else 
         end
