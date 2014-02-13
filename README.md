@@ -27,6 +27,8 @@ Initialize your products with your In App Purchase ID. Vendor will check if the 
 ```Ruby
 @products = Vendor::Products.new([{:name => "first_item", :id => "com.your.first_item.id"}, {:name => "second_item", :id => "com.your.second_item.id"}]) do |products|
   products.map{ |product| NSLog "Product exists?: #{product.success}" }
+  products.map{ |product| NSLog "Product error: #{product.error}" }
+  products.map{ |product| NSLog "Product response: #{product.response}" }
 end
 ```
 
@@ -65,6 +67,8 @@ Vendor also works with subscriptions. To initialize a subscription:
 ```Ruby
 @subscription_products = Vendor::Products.new([{:name => "subscription", :id => "com.your.subscription.id", :secret => "abcdefg12345", :subscription => true}]) do |subscriptions|
   subscriptions.map{ |subscription| NSLog "Subscription exists?: #{subscription.success}" }
+  subscriptions.map{ |subscription| NSLog "Subscription error: #{subscription.error}" }
+  subscriptions.map{ |subscription| NSLog "Subscription response: #{subscription.response}" }
 end
 ```
 
