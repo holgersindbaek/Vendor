@@ -10,6 +10,14 @@ And then execute:
 
     $ bundle
 
+Require in your rakefile:
+
+    require 'vendor'
+
+Install pod dependencies:
+
+    $ rake pod:install
+    
 ## USAGE
 
 #### Initialize.
