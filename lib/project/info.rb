@@ -82,11 +82,11 @@ module Vendor
         NSUserDefaults["#{@params.id}.localizedDescription"] = product.localizedDescription
       end
 
-      @block.call({success: exists, response: response}.to_object)
+      @block.call({success: exists, response: response, error: nil}.to_object)
     end
    
     def request(request, didFailWithError:error)
-      @block.call({success: false, error: error}.to_object)
+      @block.call({success: false, response: nil, error: error}.to_object)
     end
   end
 end

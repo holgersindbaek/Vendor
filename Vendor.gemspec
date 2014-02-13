@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-VENDOR_VERSION = "0.3.1"
+VENDOR_VERSION = "0.3.2"
 
 Gem::Specification.new do |spec|
   spec.name          = "rm_vendor"
