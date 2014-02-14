@@ -38,6 +38,12 @@ You don't need to pass along a block though. If you're sure your product exists,
 @products = Vendor::Products.new([{:name => "first_item", :id => "com.your.first_item.id"}, {:name => "second_item", :id => "com.your.second_item.id"}])
 ```
 
+If you want to initialize your product with data such as price and description, you can do that as well:
+      
+```Ruby
+@products = Vendor::Products.new([{:name => "first_item", :id => "com.your.first_item.id", :price => "0.99", :title ="Title of my first item", :description => "My first items description"}])
+```
+
 #### Get product info.
 
 After you've initialized your product, you get its information:
