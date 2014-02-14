@@ -66,6 +66,15 @@ To purchase a product, simply do:
 end
 ```
 
+And to restore it:
+
+```Ruby
+@product[:first_item].restore do |product|
+  p "Restore successful: #{product.success}"
+  p "Restore transaction: #{product.transaction}"
+end
+```
+
 #### Subscriptions.
 
 Vendor also works with subscriptions. To initialize a subscription:
