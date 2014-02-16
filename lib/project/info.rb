@@ -14,9 +14,11 @@ module Vendor
       # Update receipt if bought and subscription
       if bought? && subscription?
         receipt = NSUserDefaults["#{@params.id}.receipt"]
-        decoder = CocoaSecurityDecoder.new
-        latest_receipt_data = decoder.base64(receipt[:latest_receipt])
-        Vendor::Receipt.new(latest_receipt_data, @params)
+        unless receipt[:latest_receipt].nil?
+          decoder = CocoaSecurityDecoder.new
+          latest_receipt_data = decoder.base64(receipt[:latest_receipt])
+          Vendor::Receipt.new(latest_receipt_data, @params)
+        end
       end
     end
 
