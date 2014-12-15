@@ -79,7 +79,7 @@ module Vendor
       # Save needed product info
       if exists
         product = response.products.first
-        NSUserDefaults["#{@params.id}.price"] = product.price
+        NSUserDefaults["#{@params.id}.price"] = product.price.to_f
         NSUserDefaults["#{@params.id}.localizedTitle"] = product.localizedTitle
         NSUserDefaults["#{@params.id}.localizedDescription"] = product.localizedDescription
       end
